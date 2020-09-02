@@ -1,0 +1,30 @@
+C:\Users\joeln\Desktop\game-server-programming-course-master\game-server-programming-course-master\assignments\Assignment 1\bin\Debug\netcoreapp3.1\Assignment 1.exe
+C:\Users\joeln\Desktop\game-server-programming-course-master\game-server-programming-course-master\assignments\Assignment 1\bin\Debug\netcoreapp3.1\Assignment 1.deps.json
+C:\Users\joeln\Desktop\game-server-programming-course-master\game-server-programming-course-master\assignments\Assignment 1\bin\Debug\netcoreapp3.1\Assignment 1.runtimeconfig.json
+C:\Users\joeln\Desktop\game-server-programming-course-master\game-server-programming-course-master\assignments\Assignment 1\bin\Debug\netcoreapp3.1\Assignment 1.runtimeconfig.dev.json
+C:\Users\joeln\Desktop\game-server-programming-course-master\game-server-programming-course-master\assignments\Assignment 1\bin\Debug\netcoreapp3.1\Assignment 1.dll
+C:\Users\joeln\Desktop\game-server-programming-course-master\game-server-programming-course-master\assignments\Assignment 1\bin\Debug\netcoreapp3.1\Assignment 1.pdb
+C:\Users\joeln\Desktop\game-server-programming-course-master\game-server-programming-course-master\assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.csprojAssemblyReference.cache
+C:\Users\joeln\Desktop\game-server-programming-course-master\game-server-programming-course-master\assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.AssemblyInfoInputs.cache
+C:\Users\joeln\Desktop\game-server-programming-course-master\game-server-programming-course-master\assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.AssemblyInfo.cs
+C:\Users\joeln\Desktop\game-server-programming-course-master\game-server-programming-course-master\assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.csproj.CoreCompileInputs.cache
+C:\Users\joeln\Desktop\game-server-programming-course-master\game-server-programming-course-master\assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.dll
+C:\Users\joeln\Desktop\game-server-programming-course-master\game-server-programming-course-master\assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.pdb
+C:\Users\joeln\Desktop\game-server-programming-course-master\game-server-programming-course-master\assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.genruntimeconfig.cache
+C:\Users\joeln\Desktop\game-server-programming-course-master\game-server-programming-course-master\assignments\Assignment 1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\joeln\Desktop\game-server-programming-course-master\game-server-programming-course-master\assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.csproj.CopyComplete
+C:\Users\joeln\Desktop\Assignments\Assignment 1\bin\Debug\netcoreapp3.1\Assignment 1.exe
+C:\Users\joeln\Desktop\Assignments\Assignment 1\bin\Debug\netcoreapp3.1\Assignment 1.deps.json
+C:\Users\joeln\Desktop\Assignments\Assignment 1\bin\Debug\netcoreapp3.1\Assignment 1.runtimeconfig.json
+C:\Users\joeln\Desktop\Assignments\Assignment 1\bin\Debug\netcoreapp3.1\Assignment 1.runtimeconfig.dev.json
+C:\Users\joeln\Desktop\Assignments\Assignment 1\bin\Debug\netcoreapp3.1\Assignment 1.dll
+C:\Users\joeln\Desktop\Assignments\Assignment 1\bin\Debug\netcoreapp3.1\Assignment 1.pdb
+C:\Users\joeln\Desktop\Assignments\Assignment 1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\joeln\Desktop\Assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.csprojAssemblyReference.cache
+C:\Users\joeln\Desktop\Assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.AssemblyInfoInputs.cache
+C:\Users\joeln\Desktop\Assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.AssemblyInfo.cs
+C:\Users\joeln\Desktop\Assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.csproj.CoreCompileInputs.cache
+C:\Users\joeln\Desktop\Assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.csproj.CopyComplete
+C:\Users\joeln\Desktop\Assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.dll
+C:\Users\joeln\Desktop\Assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.pdb
+C:\Users\joeln\Desktop\Assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.genruntimeconfig.cache
