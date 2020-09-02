@@ -9,10 +9,24 @@ namespace Assignment_1
     {
         static async Task Main(string[] args)
         {
-            ICityBikeDataFetcher fetcer = new RealTimeCityBikeDataFetcher();
+            if (args.Length == 0)
+            {
+                Console.WriteLine("You need to give a Station Name as first argument");
+            }
+
+            ICityBikeDataFetcher fetcer;
             if (args.Length >= 2 && args[1] != null && args[1] == "offline")
             {
                 fetcer = new OfflineCityBikeDataFetcher();
+            }
+            else if (args.Length >= 2 && args[1] != null && args[1] == "online")
+            {
+                fetcer = new RealTimeCityBikeDataFetcher();
+            }
+            else
+            {
+                Console.WriteLine("You need to give a Mode (offline/online) as second argument");
+                return;
             }
 
             if (args.Length >= 1 && args[0] != null)
@@ -29,10 +43,6 @@ namespace Assignment_1
                 {
                     Console.WriteLine("{0} {1}", e.GetType(), e.Message);
                 }
-            }
-            else
-            {
-                Console.WriteLine("You need to give a Station Name as argument");
             }
         }
     }
