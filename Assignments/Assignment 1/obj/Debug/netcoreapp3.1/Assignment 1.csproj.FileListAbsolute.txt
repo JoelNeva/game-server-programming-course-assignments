@@ -28,3 +28,18 @@ C:\Users\joeln\Desktop\Assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignme
 C:\Users\joeln\Desktop\Assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.dll
 C:\Users\joeln\Desktop\Assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.pdb
 C:\Users\joeln\Desktop\Assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.genruntimeconfig.cache
+C:\Users\joeln\Documents\GitHub\game-server-programming-course-assignments\Assignments\Assignment 1\bin\Debug\netcoreapp3.1\Assignment 1.exe
+C:\Users\joeln\Documents\GitHub\game-server-programming-course-assignments\Assignments\Assignment 1\bin\Debug\netcoreapp3.1\Assignment 1.deps.json
+C:\Users\joeln\Documents\GitHub\game-server-programming-course-assignments\Assignments\Assignment 1\bin\Debug\netcoreapp3.1\Assignment 1.runtimeconfig.json
+C:\Users\joeln\Documents\GitHub\game-server-programming-course-assignments\Assignments\Assignment 1\bin\Debug\netcoreapp3.1\Assignment 1.runtimeconfig.dev.json
+C:\Users\joeln\Documents\GitHub\game-server-programming-course-assignments\Assignments\Assignment 1\bin\Debug\netcoreapp3.1\Assignment 1.dll
+C:\Users\joeln\Documents\GitHub\game-server-programming-course-assignments\Assignments\Assignment 1\bin\Debug\netcoreapp3.1\Assignment 1.pdb
+C:\Users\joeln\Documents\GitHub\game-server-programming-course-assignments\Assignments\Assignment 1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\joeln\Documents\GitHub\game-server-programming-course-assignments\Assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.csprojAssemblyReference.cache
+C:\Users\joeln\Documents\GitHub\game-server-programming-course-assignments\Assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.AssemblyInfoInputs.cache
+C:\Users\joeln\Documents\GitHub\game-server-programming-course-assignments\Assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.AssemblyInfo.cs
+C:\Users\joeln\Documents\GitHub\game-server-programming-course-assignments\Assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.csproj.CoreCompileInputs.cache
+C:\Users\joeln\Documents\GitHub\game-server-programming-course-assignments\Assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.csproj.CopyComplete
+C:\Users\joeln\Documents\GitHub\game-server-programming-course-assignments\Assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.dll
+C:\Users\joeln\Documents\GitHub\game-server-programming-course-assignments\Assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.pdb
+C:\Users\joeln\Documents\GitHub\game-server-programming-course-assignments\Assignments\Assignment 1\obj\Debug\netcoreapp3.1\Assignment 1.genruntimeconfig.cache

@@ -30,6 +30,10 @@ namespace Assignment_1
                     Console.WriteLine("{0} {1}", e.GetType(), e.Message);
                 }
             }
+            else
+            {
+                Console.WriteLine("You need to give a Station Name as argument");
+            }
         }
     }
 }

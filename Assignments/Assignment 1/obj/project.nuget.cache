@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1QBhv9mGgOtWGo3+8umQcGzIUchY5SP/O6nAOXWy3UwUloYG2SwFqo7TY/+Gv2eyN0ME2/1lYN2Ed+7TzW/1LQ==",
+  "dgSpecHash": "H+kh+w6w4ETh5GtoAW3AioekjEQ2Qd5By/+Eo82WN2Yelu5vorPI3OXN7l7OkUJyouHyB+CMKT/RV8YHQYp8sA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\joeln\\Desktop\\Assignments\\Assignment 1\\Assignment 1.csproj",
+  "projectFilePath": "C:\\Users\\joeln\\Documents\\GitHub\\game-server-programming-course-assignments\\Assignments\\Assignment 1\\Assignment 1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joeln\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],

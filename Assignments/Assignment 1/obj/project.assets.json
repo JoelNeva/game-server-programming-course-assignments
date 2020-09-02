@@ -58,11 +58,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joeln\\Desktop\\Assignments\\Assignment 1\\Assignment 1.csproj",
+      "projectUniqueName": "C:\\Users\\joeln\\Documents\\GitHub\\game-server-programming-course-assignments\\Assignments\\Assignment 1\\Assignment 1.csproj",
       "projectName": "Assignment 1",
-      "projectPath": "C:\\Users\\joeln\\Desktop\\Assignments\\Assignment 1\\Assignment 1.csproj",
+      "projectPath": "C:\\Users\\joeln\\Documents\\GitHub\\game-server-programming-course-assignments\\Assignments\\Assignment 1\\Assignment 1.csproj",
       "packagesPath": "C:\\Users\\joeln\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joeln\\Desktop\\Assignments\\Assignment 1\\obj\\",
+      "outputPath": "C:\\Users\\joeln\\Documents\\GitHub\\game-server-programming-course-assignments\\Assignments\\Assignment 1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
