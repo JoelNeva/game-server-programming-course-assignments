@@ -35,5 +35,7 @@ namespace GameWebApi.Controllers
             })
             .ToArray();
         }
+
+        public void Options(){}
     }
 }

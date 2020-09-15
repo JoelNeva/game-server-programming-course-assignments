@@ -1,3 +1,5 @@
+using System;
+
 public class Player
 {
     public Guid Id { get; set; }

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+nLVu0UIOo9oW1bVW3+620DeVTzm6wuz9cTXVqxNLcOu62torqZUAxJ5DpHjk+bePzHnpPjNM+87ztgcRBzDFg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\joeln\\Documents\\GitHub\\game-server-programming-course-assignments\\Assignments\\Assingment 3\\GameWebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\joeln\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
