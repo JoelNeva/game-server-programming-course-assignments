@@ -14,43 +14,43 @@ namespace GameWebApi.Controllers
         private readonly ILogger<PlayersController> _logger;
         private readonly IRepository _repo;
 
-        public PlayersController(ILogger<PlayersController> logger, FileRepository repo)
+        public PlayersController(ILogger<PlayersController> logger, IRepository repo)
         {
             _logger = logger;
             _repo = repo;
         }
 
-        [HttpGet("GetTest")]
-        public int GetTest()
-        {
-            return 1;
-        }
-
-
         [HttpGet("Get/{id:Guid}")]
-        public Player Get(Guid id)
+        public async Task<Player> Get(Guid id)
         {
-            return _repo.Get(id).Result;
+            return await _repo.Get(id);
         }
+
         [HttpGet("GetAll")]
-        public Player[] GetAll()
+        public async Task<Player[]> GetAll()
         {
-            return _repo.GetAll().Result;
+            return await _repo.GetAll();
         }
         [HttpPost("Create")]
-        public void Create([FromBody] NewPlayer player)
+        public async Task<Player> Create([FromBody] NewPlayer player)
         {
-            _repo.Create(player);
+            Player newPlayer = new Player
+            {
+                Id = Guid.NewGuid(),
+                Name = player.Name,
+                CreationTime = DateTime.UtcNow
+            };
+            return await _repo.Create(newPlayer);
         }
         [HttpPost("Modify/{id:Guid}")]
-        public void Modify(Guid id, [FromBody] ModifiedPlayer player)
+        public async Task<Player> Modify(Guid id, [FromBody] ModifiedPlayer player)
         {
-            _repo.Modify(id, player);
+            return await _repo.Modify(id, player);
         }
         [HttpGet("Delete/{id:Guid}")]
-        public void Delete(Guid id)
+        public async Task<Player> Delete(Guid id)
         {
-            _repo.Delete(id);
+            return await _repo.Delete(id);
         }
 
         public void Options() { }

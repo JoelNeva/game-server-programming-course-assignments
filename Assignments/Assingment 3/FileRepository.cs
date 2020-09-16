@@ -7,63 +7,54 @@ using System.IO;
 
 public class FileRepository : IRepository
 {
-    public Task<Player> Create(NewPlayer player)
+    public async Task<Player> Create(Player player)
     {
-        Player newPlayer = new Player
-        {
-            Id = Guid.NewGuid(),
-            Name = player.Name,
-            CreationTime = DateTime.Now
-        };
-        Player[] playersArray = ReadFile();
+        Player[] playersArray = await ReadFile();
         List<Player> playerlist = playersArray.ToList();
-        playerlist.Add(newPlayer);
+        playerlist.Add(player);
         WriteFile(playerlist.ToArray());
-        return null;
+        return player;
     }
 
-    public Task<Player> Delete(Guid id)
+    public async Task<Player> Delete(Guid id)
     {
-        Player[] players = ReadFile();
+        Player[] players = await ReadFile();
         List<Player> playerlist = players.ToList();
-        playerlist.Remove(players.Where(x => x.Id == id).FirstOrDefault());
+        Player found = players.Where(x => x.Id == id).FirstOrDefault();
+        playerlist.Remove(found);
         WriteFile(playerlist.ToArray());
-        return null;
+        return found;
     }
 
-    public Task<Player> Get(Guid id)
+    public async Task<Player> Get(Guid id)
     {
-        return Task.Run(() =>
-        {
-            return ReadFile().Where(x => x.Id == id).FirstOrDefault();
-        });
+        Player[] players = await ReadFile();
+        return players.Where(x => x.Id == id).FirstOrDefault();
     }
 
-    public Task<Player[]> GetAll()
+    public async Task<Player[]> GetAll()
     {
-        return Task.Run(() =>
-        {
-            return ReadFile();
-        });
+        Player[] temp = await ReadFile();
+        return temp;
     }
 
-    public Task<Player> Modify(Guid id, ModifiedPlayer player)
+    public async Task<Player> Modify(Guid id, ModifiedPlayer player)
     {
-        Player[] players = ReadFile();
+        Player[] players = await ReadFile();
         players.Where(x => x.Id == id).FirstOrDefault().Score = player.Score;
         WriteFile(players);
-        return null;
+        return players.Where(x => x.Id == id).FirstOrDefault();
     }
 
-    Player[] ReadFile()
+    async Task<Player[]> ReadFile()
     {
-        String jsonString = System.IO.File.ReadAllText(Path.GetFullPath("game-dev.txt"));
+        String jsonString = await System.IO.File.ReadAllTextAsync(Path.GetFullPath("game-dev.txt"));
         if (jsonString.Equals(""))
         {
             return new Player[0];
         }
-        Player[] array = JsonConvert.DeserializeObject<Player[]>(jsonString);
-        return array;
+        Player[] playerlist = JsonConvert.DeserializeObject<Player[]>(jsonString);
+        return playerlist;
     }
 
     void WriteFile(Player[] players)
